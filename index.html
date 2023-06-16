@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whyyy-Project|Gabut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card" onclick="showText()" ondragover="showText2()" id="card">
+            <div class="text1">
+                    hai Chika
+                </div>
+                <div class="text2">
+                    Mau ngga jadi Babu kuu
+                    <i data-feather="heart" class="heart"></i>
+                </div>
+                <img src="img/sedih1.png" id="sedih" alt="" width="150px">
+                <img src="img/sedih2.png" id="sedih2" alt="" width="150px">
+                <img src="img/ketawa.png" id="ketawa" alt="" width="150px">
+                <div class="text3" id="pesan">
+                    Tunggu ada kado buat kamu
+                </div>
+        </div>
+
+            <div class="btn">
+                <button href="#" class="custom-btn btn-mau" onclick="showMau()" onmouseover="showImage()">
+                    <span>emang boleh ?</span>
+                    <span>Mau</span>
+                </button>
+                <button href="#" class="custom-btn btn-gak" id="dih" onclick="Move()">
+                    <span>Ngga</span>
+                </button>
+            </div>
+    </div>
+ 
+
+<script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+</body>
+
+</html>
