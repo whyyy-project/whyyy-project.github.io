@@ -64,12 +64,12 @@ function Move() {
     button.style.backgroundSize = '10px';
     button.style.width = btnSize + 'px';
     button.style.height = btnSize/2 + 'px';
-    button.style.display = (count >= 5) ? 'none' : 'block';
+    button.style.display = (count >= 4) ? 'none' : 'block';
     var senang = document.getElementById('ketawa');
     var sedih = document.getElementById('sedih');
     var sedih2 = document.getElementById('sedih2');
     senang.style.display = 'none';
-    if(count >= 3){
+    if(count >= 2){
         sedih.style.display = 'block';
         sedih2.style.display = 'none';
     }else{
