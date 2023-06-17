@@ -76,6 +76,7 @@
   .text3{
     display: none;
     justify-content: center;
+    margin-top: 25px;
     font-size: .8rem;
     color: rgb(87, 198, 250);
     animation: heartbeat 1.2s infinite;

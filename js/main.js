@@ -14,7 +14,7 @@ var textShow2 = document.getElementById('card');
     textShow2.style.color = 'rgb(87, 198, 250)';
     setTimeout(function() {
         textShow2.style.color = 'rgba(255, 255, 255, 0)';
-      }, 5000);
+      }, 8000);
 }
 function showMau() {
     var pesan = document.getElementById('pesan');
@@ -64,7 +64,7 @@ function Move() {
     button.style.backgroundSize = '10px';
     button.style.width = btnSize + 'px';
     button.style.height = btnSize/2 + 'px';
-    button.style.display = (count >= 4) ? 'none' : 'block';
+    button.style.display = (count >= 5) ? 'none' : 'block';
     var senang = document.getElementById('ketawa');
     var sedih = document.getElementById('sedih');
     var sedih2 = document.getElementById('sedih2');
