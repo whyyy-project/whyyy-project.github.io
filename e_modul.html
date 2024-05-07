@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>FIKIH MUNAKAHAT | KITBAH DALAM ISLAM</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    <style>
+      /* Style untuk box audio */
+  .box-audio {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px; /* Lebar box */
+    height: 45px; /* Tinggi box */
+    background-color: rgb(7, 114, 255); /* Warna latar belakang */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+
+  /* Style untuk tombol audio */
+  .box-audio button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  /* Style untuk ikon suara */
+  .box-audio button i {
+    font-size: 24px;
+    color :white;
+  }
+    </style>
+  </head>
+
+<body class="bg-secondary">
+
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>E-MODUL</em> pembelajaran</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section4">Materi</a></li>
+        <li><a href="#section2">Tujuan</a></li>
+        <li><a href="#" class="external" onclick="bagikanHalaman()">Share</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/course-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              <h6>E-MODUL PEMBELAJARAN</h6>
+              <h2 class="mb-1"><em>FIKIH</em> MUNAKAHAT</h2>
+              <h6><span class="text-warning">kitbah</span> dalam islam</h6>
+              <div class="main-button">
+                  <div class="scroll-to-section mt-5"><a href="#section4">Pelajari materi</a></div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="section courses" data-section="section4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Pilih materi untukmu</h2>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <!-- materi -->
+          <div class="item">
+            <img src="assets/images/kitbah.jpg" alt="Course #1">
+            <div class="down-content">
+              <h4>1. Pengertian Khitbah</h4>
+              <p class="">Peminangan dalam bahasa Arab disebut “khitbah”. Menurut
+                Etimologi, meminang atau melamar artinya, meminta wanita
+                untuk dijadikan istri (bagi diri sendiri atau orang lain).</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/hukum.jpg" alt="Course #2">
+            <div class="down-content">
+              <h4>2. Dasar Hukum Khitbah</h4>
+              <p class="">Dasar hukum Khitbah / Peminangan telah dijelaskan pada (QS Al-Baqarah:235).</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/hikmah.jpg" alt="Course #3">
+            <div class="down-content">
+              <h4>3. Hikmah Khitbah</h4>
+              <p class="">Untuk meminimalisasi kemungkinan kekecewaan dan kesalahan memilih calon pendamping, juga agar pasangan dapat saling mengenal dan saling memahami watak dan kepribadian pasangannya.</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/wanita.jpg" alt="Course #4">
+            <div class="down-content">
+              <h4>4. Memilih Calon Istri</h4>
+              <p class="">“Perempuan itu dinikahi karena empat hal: karena harta, keturunan, kecantikan dan agamanya. Pilihlah wanita yang taat kepada agamanya, maka kamu akan beruntung.” (HR. Bukhari).</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/pria.jpg" alt="Course #5">
+            <div class="down-content">
+              <h4>5. Memilih Calon Suami</h4>
+              <p class="">“Jika seorang yang kalian sukai agama dan akhlaknya mendatangi kalian, maka nikahkanlah padanya, jika engkau tidak melakukannya, maka akan terjadi fitnah (musibah) dan kerusakan yang besar”. (HR. Tirmidzy).</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/syarat.jpg" alt="Course #6">
+            <div class="down-content">
+              <h4>6. Syarat Peminangan</h4>
+              <p class="">
+                1. Syarat Mustahsinah <br>
+                syarat yang merupakan anjuran pada laki-laki yang hendak meminang agar meneliti wanita yang akan dipinangnya sebelum melangsungkan peminangan <br>
+                2. Syarat Lazimah <br>
+                syarat yang wajib dipenuhi sebelum peminangan dilakukan.
+              </p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/melihat.jpg" alt="Course #6">
+            <div class="down-content">
+              <h4>7. batas Melihat Pinangan</h4>
+              <p class="">Seorang lelaki yang akan berumah tangga, sebaiknya melihat perempuan yang akan dipinangnya, begitupun dengan sebaliknya perempuan melihat laki-laki yang akan meminangnya.</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/setan.jpg" alt="Course #6">
+            <div class="down-content">
+              <h4>8. Hukum Berkhalwat dengan Pinangan</h4>
+              <p class="">“Janganlah seorang lelaki berduaan dengan seorang perempuan yang tidaka halal baginya.Karena sesungguhnya yang ke tiga adalah syetan. Kecuali dibarengi oleh mahramnya”. (HR. Ahmad).</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/hukum2.jpg" alt="Course #6">
+            <div class="down-content">
+              <h4>9. Konsekwensi Pembatalan Khitbah</h4>
+              <p class="">“Khitbah hanyalah langkah pertama menuju
+                perkawinan, membatalkan khitbah/pinangan tidak
+                menimbulkan pengaruh apapun selagi belum terjadi akad.</p>
+              
+              <div class="text-button-pay">
+                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- end materi -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>kenapa harus pembelajaran digital?</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a href='#tabs-1'>Pembelajaran lebih menarik</a></li>
+              <li><a href='#tabs-2'>Aksebilitas yang fleksibel</a></li>
+              <li><a href='#tabs-3'>Penggunaan teknologi berkelanjutan</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/images/choose-us-image-01.png" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Pembelajaran lebih menarik</h4>
+                    <p>Media pembelajaran seperti video, animasi, dan simulasi dapat membuat pembelajaran lebih menarik dan menarik perhatian siswa. Mereka dapat membantu menjaga minat dan motivasi siswa selama proses pembelajaran.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-2'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/images/choose-us-image-02.png" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Aksebilitas yang fleksibel</h4>
+                    <p>Media pembelajaran digital dapat diakses dari mana saja dan kapan saja, sehingga memberikan fleksibilitas dalam pembelajaran. Ini memungkinkan siswa untuk belajar sesuai dengan waktu, tempat, dan kecepatan belajar mereka sendiri.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/images/choose-us-image-03.png" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Penggunaan teknologi berkelanjutan</h4>
+                    <p>Pengembangan media pembelajaran memungkinkan pendidik untuk memanfaatkan teknologi yang terus berkembang untuk mendukung pembelajaran yang lebih baik dan inovatif.</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Copyright <span id="year"></span> by Anissa  
+          
+           | Design: <a href="https://templatemo.com" rel="sponsored" target="_parent">TemplateMo</a>
+          
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="box-audio">
+    <audio id="myAudio" loop>
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button onclick="toggleAudio()">
+      <i id="soundIcon" class="fa fa-volume-off"></i>
+    </button>
+  </div>
+
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+    <script>
+      var yearSpan = document.getElementById("year");
+      var year = new Date().getFullYear();
+      yearSpan.textContent = year;
+    </script>
+
+<script>
+  // Fungsi untuk membagikan halaman web saat ini
+  function bagikanHalaman() {
+    // Periksa apakah browser mendukung fungsi navigator.share()
+    if (navigator.share) {
+      // Dapatkan URL halaman web saat ini
+      var currentUrl = window.location.href;
+      
+      // Bagikan URL menggunakan navigator.share()
+      navigator.share({
+        title: document.title,
+        url: currentUrl
+      }).then(() => {
+        console.log('URL berhasil dibagikan');
+      }).catch((error) => {
+        console.error('Gagal membagikan URL:', error);
+      });
+    } else {
+      // Jika browser tidak mendukung navigator.share()
+      alert('Maaf, browser Anda tidak mendukung fitur pembagian.');
+    }
+  }
+</script>
+
+<script>
+  var audio = document.getElementById("myAudio");
+  var soundIcon = document.getElementById("soundIcon");
+
+  function toggleAudio() {
+    if (audio.paused) {
+      audio.play();
+      soundIcon.className = "fa fa-volume-up";
+    } else {
+      audio.pause();
+      soundIcon.className = "fa fa-volume-off";
+    }
+  }
+</script>
+</body>
+</html>
