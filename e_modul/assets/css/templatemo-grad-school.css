@@ -842,11 +842,16 @@ section.courses .item .down-content .text-button-pay {
     display: inline-block;
     margin-top: -15px;
     font-weight: 500;
-}
-
-section.courses .item .down-content .text-button-pay a {
+  }
+  
+  section.courses .item .down-content .text-button-pay a {
     color: #f5a425;
     font-size: 13px;
+    cursor: pointer;
+}
+  section.courses .item .down-content .text-button-pay a:hover {
+    color: #bd7503;
+    transform: translateY(-3px);
 }
 
 section.courses .item .down-content .text-button-free {

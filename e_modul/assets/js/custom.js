@@ -76,12 +76,12 @@
 
 function item(data){
 	const pdf = data
-   if(pdf.style.display == 'none'){
-   pdf.style.display = 'block';
+   if(pdf.style.display == 'block'){
+   pdf.style.display = 'none';
    }
   else
   {
-	pdf.style.display = 'none';
+	pdf.style.display = 'block';
 	
   }
 }

@@ -26,7 +26,7 @@
     </style>
   </head>
 
-<body class="bg-secondary">
+<body class="bg-secondary" id="window">
 
   <!--header-->
   <header class="main-header clearfix" role="header">
@@ -58,7 +58,7 @@
           <div class="caption">
               <h6>E-MODUL PEMBELAJARAN</h6>
               <h2 class="mb-1"><em>FIKIH</em> MUNAKAHAT</h2>
-              <h6><span class="text-warning">kitbah</span> dalam islam</h6>
+              <h6><span class="text-warning font-italic">kitbah</span> dalam islam</h6>
               <div class="main-button">
                   <div class="scroll-to-section mt-5"><a href="#section4">Pelajari materi</a></div>
               </div>
@@ -69,14 +69,23 @@
   <!-- ***** Main Banner Area End ***** -->
 
   <!-- pdf -->
+  <!-- materi 1 -->
   <div id="pengertian_khitbah" class="view-pdf">
     <div class="centered">
       <embed id="filePdf" src="./assets/pdf/1.pengertian_khitbah.pdf" type="application/pdf" width="100%" height="100%" />
-      <button href="#" onclick="item(pengertian_khitbah)" class="btn-close">close</button>
+      <button href="#" onclick="item(pengertian_khitbah)" class="btn-close">Tutup</button>
+    </div>
+  </div>
+  <div id="dasar_hukum_khitbah" class="view-pdf">
+    <div class="centered">
+      <embed id="filePdf" src="./assets/pdf/2.dasar_hukum_khitbah.pdf" type="application/pdf" width="100%" height="100%" />
+      <button href="#" onclick="item(dasar_hukum_khitbah)" class="btn-close">Tutup</button>
     </div>
   </div>
 
 
+
+<!-- data materi -->
   <section class="section courses" data-section="section4">
     <div class="container-fluid">
       <div class="row">
@@ -109,7 +118,7 @@
               <p class="">Dasar hukum Khitbah / Peminangan telah dijelaskan pada (QS Al-Baqarah:235).</p>
               
               <div class="text-button-pay">
-                <a href="#">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
+                <a onclick="item(dasar_hukum_khitbah)">Pelajari Selengkapnya<i class="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
