@@ -85,3 +85,38 @@ function item(data){
 	
   }
 }
+
+ // Fungsi untuk membagikan halaman web saat ini
+ function bagikanHalaman() {
+    // Periksa apakah browser mendukung fungsi navigator.share()
+    if (navigator.share) {
+      // Dapatkan URL halaman web saat ini
+      var currentUrl = window.location.href;
+      
+      // Bagikan URL menggunakan navigator.share()
+      navigator.share({
+        title: document.title,
+        url: currentUrl
+      }).then(() => {
+        console.log('URL berhasil dibagikan');
+      }).catch((error) => {
+        console.error('Gagal membagikan URL:', error);
+      });
+    } else {
+      // Jika browser tidak mendukung navigator.share()
+      alert('Maaf, browser Anda tidak mendukung fitur pembagian.');
+    }
+  }
+
+  var audio = document.getElementById("myAudio");
+  var soundIcon = document.getElementById("soundIcon");
+
+  function toggleAudio() {
+    if (audio.paused) {
+      audio.play();
+      soundIcon.className = "fa fa-volume-up";
+    } else {
+      audio.pause();
+      soundIcon.className = "fa fa-volume-off";
+    }
+  }
