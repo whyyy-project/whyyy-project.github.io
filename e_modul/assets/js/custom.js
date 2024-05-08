@@ -73,3 +73,15 @@
 
 
 })(jQuery);
+
+function item(data){
+	const pdf = data
+   if(pdf.style.display == 'none'){
+   pdf.style.display = 'block';
+   }
+  else
+  {
+	pdf.style.display = 'none';
+	
+  }
+}
