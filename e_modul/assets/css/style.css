@@ -29,7 +29,7 @@
 .view-pdf {
     width: 100vw;
     height: 100vh;
-    display: block;
+    display: none;
     position: absolute;
     margin: 0;
     background-color: rgba(134, 80, 80, 0.678);
