@@ -30,13 +30,15 @@
     width: 100vw;
     height: 100vh;
     display: none;
-    position: absolute;
+    position: fixed;
     margin: 0;
     background-color: rgba(134, 80, 80, 0.678);
     z-index: 999;
     pointer-events: auto; /* Mengaktifkan interaksi dengan elemen */
-    top: 0; /* Menempatkan elemen di bagian atas layar */
-    left: 0; /* Menempatkan elemen di bagian kiri layar */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 
