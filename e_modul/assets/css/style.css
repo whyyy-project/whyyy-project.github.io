@@ -53,27 +53,6 @@
     height: 90%;
     z-index: 1001; /* Menempatkan di atas view-pdf */
   }
-  /* CSS untuk tombol */
-  .btn-close {
-    display: flex;
-    padding: 10px 20px;
-    background-color: #8f0404;
-    transform: translate(250px, 5px);
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: auto;
-    width: 60px;
-    text-decoration: none;
-    border-radius: 20px;
-    transition: background-color 0.3s;
-    z-index: 1002; /* Menempatkan di atas view-pdf */
-  }
-  
-  .btn-close:hover {
-    background-color: #ff0000;
-  }
-
   /* Responsif untuk tampilan perangkat seluler */
   @media screen and (max-width: 768px) {
     .centered {
@@ -83,10 +62,4 @@
       bottom: 10%;
     }
 
-    .btn-close {
-      width: 65px;
-      height: 40px;
-      transform: translate(150px, 5px);
-
-    }
   }
